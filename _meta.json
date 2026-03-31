@@ -1,0 +1,25 @@
+{
+  "skill_name": "OpenClaw-Lineage",
+  "version": "1.0.0",
+  "publisher": {
+    "name": "shadman1996",
+    "contact": "security@yourdomain.edu",
+    "github": "https://github.com/shadman1996/openclaw-lineage"
+  },
+  "description": "A Zero-Trust Cryptographic Intent Signer and Shell Enforcer. Prevents Indirect Prompt Injections by mathematically verifying the lineage of all terminal commands.",
+  "entry_point": "gateway_signer.py",
+  "permissions": [
+    "terminal_execution",
+    "memory_read",
+    "memory_write"
+  ],
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-03-31",
+      "changes": "Initial release: Ed25519 payload signing and subprocess execution enforcement."
+    }
+  ],
+  "security_scan_opt_in": true
+}
+
